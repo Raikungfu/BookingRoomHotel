@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewData["Title"] = "Login Admin";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Admin</title>
+    <link rel="stylesheet" href="css/StyleSheet.css">
+    <style>
+        .form-submit {
+            margin-bottom: 10px;
+        }
+
+        .loginhere {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <section class="signup">
+
+            <div class="container">
+                <div class="signup-content">
+                    <form asp-controller="Admin" asp-action="Login" class="signin-form">
+                        <h2 class="form-title">Login Admin</h2>
+                        <div class="form-group">
+                            <input name="UserName" type="text" class="form-input" placeholder="Username" required>
+                        </div>
+                        <div class="form-group">
+                            <input name="Password" id="password-field" type="password" class="form-input" placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-submit">Login</button>
+                        </div>
+                        @if(ViewBag.Message != null)
+                        {
+                            @if (ViewBag.Message.Contains("Success"))
+                            {
+                                <div class="alert alert-success">
+                                    @ViewBag.Message
+                                </div>
+                                <h5><a class="nav-link icon-link-hover" asp-area="" asp-controller="Admin" asp-action="Dashboard">Dashboard</a></h5>
+                            }
+                            @if (ViewBag.Message.Contains("Failed"))
+                            {
+                                <div class="alert alert-danger">
+                                    @ViewBag.Message
+                                </div>
+                            }
+                        } 
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
+
