@@ -8,11 +8,16 @@ namespace BookingRoomHotel.Controllers
         // GET: HomeController
         public ActionResult Index()
         {
-            string message = TempData["Message"] as string;
+            string messageSuccess = TempData["Success"] as string;
+            string messageError = TempData["Error"] as string;
 
-            if (!string.IsNullOrEmpty(message))
+            if (!string.IsNullOrEmpty(messageSuccess))
             {
-                ViewBag.Message = message;
+                ViewBag.MessageSuccess = messageSuccess;
+            }
+            if (!string.IsNullOrEmpty(messageError))
+            {
+                ViewBag.MessageError = messageError;
             }
             ViewData["Role"] = HttpContext.Session.GetString("Role");
             if (ViewData["Role"] != null){

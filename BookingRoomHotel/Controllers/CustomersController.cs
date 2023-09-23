@@ -7,24 +7,27 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BookingRoomHotel.Models;
 using BookingRoomHotel.ViewModels;
+using System.Net.Mail;
+using BookingRoomHotel.Models.ModelsInterface;
 
 namespace BookingRoomHotel.Controllers
 {
     public class CustomersController : Controller
     {
         private readonly ApplicationDbContext _context;
-
-        public CustomersController(ApplicationDbContext context)
+        private readonly IEmailService _emailService;
+        public CustomersController(ApplicationDbContext context, IEmailService emailService)
         {
             _context = context;
+            _emailService = emailService;
         }
 
         // GET: Customers
         public async Task<IActionResult> Index()
         {
-              return _context.Customers != null ? 
-                          View(await _context.Customers.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Customers'  is null.");
+            return _context.Customers != null ?
+                        View(await _context.Customers.ToListAsync()) :
+                        Problem("Entity set 'ApplicationDbContext.Customers'  is null.");
         }
 
         // GET: Customers/Details/5
@@ -150,65 +153,84 @@ namespace BookingRoomHotel.Controllers
             {
                 _context.Customers.Remove(customer);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CustomerExists(string id)
         {
-          return (_context.Customers?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Customers?.Any(e => e.Id == id)).GetValueOrDefault();
         }
 
         [HttpPost]
-        public IActionResult Register(CustomerViewModel model)
+        public IActionResult Register([FromForm] CusRegisterViewModel model)
         {
-            if (ModelState.IsValid && model.Pw.Equals(model.PwCf))
+            try
             {
-                if (_context.Customers.Find(model.Id) != null)
+                if (ModelState.IsValid && model.Pw.Equals(model.PwCf))
                 {
-                    TempData["Message"] = "Register Failed! ID already existed!";
-                    return RedirectToAction("Index", "Home");
+                    if (_context.Customers.Find(model.Id) != null)
+                    {
+                        throw new Exception("ID already existed!");
+                    }
+                    else
+                    {
+                        _emailService.SendRegisterMail(model.Email, model.Name, model.Id, model.Pw);
+                        var cus = new Customer
+                        {
+                            Id = model.Id,
+                            Pw = model.Pw,
+                            Name = model.Name,
+                            Email = model.Email,
+                            Address = model.Address,
+                            DateOfBirth = model.DateOfBirth,
+                            Phone = model.Phone
+                        };
+                        _context.Customers.Add(cus);
+                        _context.SaveChanges();
+                        TempData["Success"] = "Register Successful! Please check your email!";
+                        return Json(new {success = true});
+                    }
+
+                }
+                throw new Exception("Your password does not match!");
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, error = "Register Failed! Error: " + ex.Message });
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Login([FromForm] CusLoginViewModel model)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    var cus = _context.Customers.Find(model.UserName);
+                    if (cus != null && cus.Pw.Equals(model.Password))
+                    {
+                        HttpContext.Session.SetString("Role", "Customer");
+                        HttpContext.Session.SetString("Name", cus.Name);
+                        TempData["Success"] = "Login Successful!";
+                        return Json(new {success = true});
+                    }
+                    else
+                    {
+                        throw new Exception("ID or Password not correct!");
+                    }
                 }
                 else
                 {
-                    var cus = new Customer
-                    {
-                        Id = model.Id,
-                        Pw = model.Pw,
-                        Name = model.Name,
-                        Email = model.Email,
-                        Address = model.Address,
-                        DateOfBirth = model.DateOfBirth,
-                        Phone = model.Phone
-                    };
-                    _context.Customers.Add(cus);
-                    _context.SaveChanges();
-                    TempData["Message"] = "Register Successful!";
-                    return RedirectToAction("Index", "Home");
+                    throw new Exception("Your input not correct!");
                 }
-                
             }
-            TempData["Message"] = "Register Failed! Your password does not match!";
-            return RedirectToAction("Index", "Home");
-        }
-
-        [HttpPost]
-        public IActionResult Login(UserViewModel model)
-        {
-            if (ModelState.IsValid)
+            catch (Exception ex)
             {
-                var cus = _context.Customers.Find(model.UserName);
-                if (cus != null && cus.Pw.Equals(model.Password))
-                {
-                    TempData["Message"] = "Login Successful!";
-                    HttpContext.Session.SetString("Role", "Customer");
-                    HttpContext.Session.SetString("Name", cus.Name);
-                    return RedirectToAction("Index", "Home");
-                }
+                return Json(new {success = false, error = "Login Failed! Error: " + ex.Message});
             }
-            TempData["Message"] = "Login Failed!";
-            return RedirectToAction("Index", "Home");
         }
         public IActionResult Logout()
         {
@@ -217,27 +239,59 @@ namespace BookingRoomHotel.Controllers
         }
 
         [HttpPost]
-        public IActionResult ChangePassword(ChangePwViewModel model)
+        public IActionResult ChangePassword([FromForm] CusChangePwViewModel model)
         {
-            if (ModelState.IsValid && model.NewPw.Equals(model.ConfirmNewPw))
+            try
             {
-                var cus = _context.Customers.Find(model.Id);
-                if (cus != null && cus.Pw.Equals(model.OldPw))
+                if (ModelState.IsValid && model.NewPw.Equals(model.ConfirmNewPw))
                 {
-                    cus.Pw = model.NewPw;
-                    _context.SaveChanges();
-                    TempData["Message"] = "Change Password Successful!";
+                    var cus = _context.Customers.Find(model.Id);
+                    if (cus != null && cus.Pw.Equals(model.OldPw))
+                    {
+
+                        cus.Pw = model.NewPw;
+                        _context.SaveChanges();
+                        _emailService.SendChangePasswordMail(cus.Email, cus.Name, cus.Pw);
+                        TempData["Success"] = "Change Password successful! Please check your email!";
+                        return Json(new { success = true });
+                    }
+                    else
+                    {
+                        throw new Exception("Your information not correctly!");
+                    }
                 }
                 else
                 {
-                    TempData["Message"] = "Change Password Failed! Your information not correctly!";
+                    throw new Exception("Your input not correct!");
                 }
             }
-            else
+            catch (Exception ex)
             {
-                TempData["Message"] = "Change Password Failed!";
+                return Json(new { success = false, error = "Change Password Failed! Error: " + ex.Message });
             }
-            return RedirectToAction("Index", "Home");
         }
+
+        [HttpPost]
+        public IActionResult ForgotPassword([FromForm] CusForgotPasswordViewModel model)
+        {
+            try
+            {
+                var cus = _context.Customers.Find(model.Id);
+                if (cus != null && cus.Email.Equals(model.Email))
+                {
+                    _emailService.SendForgotPasswordMail(cus.Email, cus.Name, cus.Pw);
+                    TempData["Success"] = "Your password has been sent via email. Please check your email!";
+                    return Json(new { success = true });
+                }else 
+                { 
+                    throw new Exception("Your ID or Email not correct!"); 
+                }
+            }catch (Exception ex)
+            {
+                return Json(new { success = false, error = "Get password Failed! Error: " + ex.Message });
+            }
+        }
+
     }
+
 }

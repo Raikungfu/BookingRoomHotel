@@ -284,3 +284,4 @@ C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\obj\Debug\net6.0\r
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\obj\Debug\net6.0\BookingRoomHotel.pdb
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\obj\Debug\net6.0\BookingRoomHotel.genruntimeconfig.cache
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\obj\Debug\net6.0\ref\BookingRoomHotel.dll
+C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll

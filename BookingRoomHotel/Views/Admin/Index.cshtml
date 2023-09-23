@@ -40,22 +40,18 @@
                         <div class="form-group">
                             <button type="submit" class="form-submit">Login</button>
                         </div>
-                        @if(ViewBag.Message != null)
+                        @if (ViewBag.MessageSuccess != null)
                         {
-                            @if (ViewBag.Message.Contains("Success"))
-                            {
-                                <div class="alert alert-success">
-                                    @ViewBag.Message
-                                </div>
-                                <h5><a class="nav-link icon-link-hover" asp-area="" asp-controller="Admin" asp-action="Dashboard">Dashboard</a></h5>
-                            }
-                            @if (ViewBag.Message.Contains("Failed"))
-                            {
-                                <div class="alert alert-danger">
-                                    @ViewBag.Message
-                                </div>
-                            }
-                        } 
+                            <div class="alert alert-success">
+                                @ViewBag.MessageSuccess
+                            </div>
+                        }
+                        @if (ViewBag.MessageError != null)
+                        {
+                            <div class="alert alert-danger">
+                                @ViewBag.MessageError
+                            </div>
+                        }
                     </form>
 
                 </div>

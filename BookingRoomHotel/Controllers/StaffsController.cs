@@ -12,7 +12,6 @@ namespace BookingRoomHotel.Controllers
     public class StaffsController : Controller
     {
         private readonly ApplicationDbContext _context;
-
         public StaffsController(ApplicationDbContext context)
         {
             _context = context;

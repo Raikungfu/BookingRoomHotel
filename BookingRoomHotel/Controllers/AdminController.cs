@@ -20,9 +20,9 @@ namespace BookingRoomHotel.Controllers
             return View();
         }
 
-        public IActionResult Login(UserViewModel model)
+        public IActionResult Login(StaffLoginViewModel model)
         {
-            var staff = _context.Staffs.Find(model.UserName);
+            var staff = _context.Staffs.Find(model.Username);
             if (ModelState.IsValid && staff != null)
             {
                 if (staff.Pw.Equals(model.Password))

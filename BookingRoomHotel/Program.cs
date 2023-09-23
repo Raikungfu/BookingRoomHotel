@@ -1,12 +1,11 @@
 using BookingRoomHotel.Models;
+using BookingRoomHotel.Models.ModelsInterface;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-Console.WriteLine(builder.Configuration.GetConnectionString("DefaultConnection"));
 
 builder.Services.AddDistributedMemoryCache();
 
@@ -21,6 +20,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
+
+builder.Services.AddSingleton<IEmailService, EmailService>();
+
 
 var app = builder.Build();
 
