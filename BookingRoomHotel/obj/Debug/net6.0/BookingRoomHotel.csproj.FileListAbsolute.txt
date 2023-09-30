@@ -11,6 +11,7 @@ C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\E
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\MessagePack.dll
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.Build.dll
@@ -35,6 +36,7 @@ C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\M
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.Identity.Client.dll
@@ -284,4 +286,3 @@ C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\obj\Debug\net6.0\r
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\obj\Debug\net6.0\BookingRoomHotel.pdb
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\obj\Debug\net6.0\BookingRoomHotel.genruntimeconfig.cache
 C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\obj\Debug\net6.0\ref\BookingRoomHotel.dll
-C:\Users\Raiku\source\repos\BookingRoomHotel\BookingRoomHotel\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll

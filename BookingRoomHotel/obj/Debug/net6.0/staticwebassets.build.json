@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oNetXb3dOiPZjSN2/K5NZC+H6HC8ffR50DNTY3vcLp8=",
+  "Hash": "cxMxJvBZ/3//yNr0MTUtAf4dTkv47maJt0iYUOSdG8c=",
   "Source": "BookingRoomHotel",
   "BasePath": "_content/BookingRoomHotel",
   "Mode": "Default",
@@ -850,6 +850,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\AdminCode.js",
+      "SourceId": "BookingRoomHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "BasePath": "_content/BookingRoomHotel",
+      "RelativePath": "js/AdminCode.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\AdminCode.js"
+    },
+    {
       "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\HomeCode.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
@@ -867,12 +884,12 @@
       "OriginalItemSpec": "wwwroot\\js\\HomeCode.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\JavaScript.js",
+      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\StateCode.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
-      "RelativePath": "js/JavaScript.js",
+      "RelativePath": "js/StateCode.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -881,7 +898,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\JavaScript.js"
+      "OriginalItemSpec": "wwwroot\\js\\StateCode.js"
     },
     {
       "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

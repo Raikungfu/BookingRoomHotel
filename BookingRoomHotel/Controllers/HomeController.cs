@@ -19,11 +19,6 @@ namespace BookingRoomHotel.Controllers
             {
                 ViewBag.MessageError = messageError;
             }
-            ViewData["Role"] = HttpContext.Session.GetString("Role");
-            if (ViewData["Role"] != null){
-                ViewBag.Name = HttpContext.Session.GetString("Name");
-                ViewBag.Role = HttpContext.Session.GetString("Role");
-            }
             return View();
         }
 

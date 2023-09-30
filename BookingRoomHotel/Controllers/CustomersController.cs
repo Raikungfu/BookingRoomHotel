@@ -9,6 +9,8 @@ using BookingRoomHotel.Models;
 using BookingRoomHotel.ViewModels;
 using System.Net.Mail;
 using BookingRoomHotel.Models.ModelsInterface;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookingRoomHotel.Controllers
 {
@@ -16,21 +18,25 @@ namespace BookingRoomHotel.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IEmailService _emailService;
-        public CustomersController(ApplicationDbContext context, IEmailService emailService)
+        private readonly ITokenService _tokenService;
+        public CustomersController(ApplicationDbContext context, IEmailService emailService, ITokenService tokenService)
         {
             _context = context;
             _emailService = emailService;
+            _tokenService = tokenService;
         }
 
         // GET: Customers
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Index()
         {
             return _context.Customers != null ?
-                        View(await _context.Customers.ToListAsync()) :
+                        PartialView(await _context.Customers.ToListAsync()) :
                         Problem("Entity set 'ApplicationDbContext.Customers'  is null.");
         }
 
         // GET: Customers/Details/5
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.Customers == null)
@@ -45,21 +51,23 @@ namespace BookingRoomHotel.Controllers
                 return NotFound();
             }
 
-            return View(customer);
+            return PartialView(customer);
         }
 
         // GET: Customers/Create
+        [HttpGet]
+        [Authorize(Policy = "AdminPolicy")]
         public IActionResult Create()
         {
-            return View();
+            return PartialView();
         }
 
         // POST: Customers/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw")] Customer customer)
+        [Authorize(Policy = "AdminPolicy")]
+        public async Task<IActionResult> Create([FromForm] [Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw")] Customer customer)
         {
             if (ModelState.IsValid)
             {
@@ -67,10 +75,11 @@ namespace BookingRoomHotel.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(customer);
+            return PartialView(customer);
         }
 
         // GET: Customers/Edit/5
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null || _context.Customers == null)
@@ -83,15 +92,15 @@ namespace BookingRoomHotel.Controllers
             {
                 return NotFound();
             }
-            return View(customer);
+            return PartialView(customer);
         }
 
         // POST: Customers/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw")] Customer customer)
+        [Authorize(Policy = "AdminPolicy")]
+        public async Task<IActionResult> Edit(string id, [FromForm] [Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw")] Customer customer)
         {
             if (id != customer.Id)
             {
@@ -118,10 +127,11 @@ namespace BookingRoomHotel.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(customer);
+            return PartialView(customer);
         }
 
         // GET: Customers/Delete/5
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null || _context.Customers == null)
@@ -136,13 +146,13 @@ namespace BookingRoomHotel.Controllers
                 return NotFound();
             }
 
-            return View(customer);
+            return PartialView(customer);
         }
 
         // POST: Customers/Delete/5
         [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
+        [Authorize(Policy = "AdminPolicy")]
+        public async Task<IActionResult> DeleteConfirmed([FromForm] string id)
         {
             if (_context.Customers == null)
             {
@@ -164,13 +174,13 @@ namespace BookingRoomHotel.Controllers
         }
 
         [HttpPost]
-        public IActionResult Register([FromForm] CusRegisterViewModel model)
+        public async Task<IActionResult> Register([FromForm] CusRegisterViewModel model)
         {
             try
             {
                 if (ModelState.IsValid && model.Pw.Equals(model.PwCf))
                 {
-                    if (_context.Customers.Find(model.Id) != null)
+                    if (await _context.Customers.FindAsync(model.Id) != null)
                     {
                         throw new Exception("ID already existed!");
                     }
@@ -187,12 +197,11 @@ namespace BookingRoomHotel.Controllers
                             DateOfBirth = model.DateOfBirth,
                             Phone = model.Phone
                         };
-                        _context.Customers.Add(cus);
-                        _context.SaveChanges();
+                        await _context.Customers.AddAsync(cus);
+                        await _context.SaveChangesAsync();
                         TempData["Success"] = "Register Successful! Please check your email!";
-                        return Json(new {success = true});
+                        return Json(new { success = true, accessToken = _tokenService.GenerateAccessToken(cus.Id, cus.Name, "customer"), role = "customer", name = cus.Name });
                     }
-
                 }
                 throw new Exception("Your password does not match!");
             }
@@ -203,19 +212,17 @@ namespace BookingRoomHotel.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login([FromForm] CusLoginViewModel model)
+        public async Task<IActionResult> Login([FromForm] CusLoginViewModel model)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var cus = _context.Customers.Find(model.UserName);
+                    var cus = await _context.Customers.FindAsync(model.UserName);
                     if (cus != null && cus.Pw.Equals(model.Password))
                     {
-                        HttpContext.Session.SetString("Role", "Customer");
-                        HttpContext.Session.SetString("Name", cus.Name);
                         TempData["Success"] = "Login Successful!";
-                        return Json(new {success = true});
+                        return Json(new { success = true, accessToken = _tokenService.GenerateAccessToken(cus.Id, cus.Name, "customer"), role = "customer", name = cus.Name });
                     }
                     else
                     {
@@ -229,7 +236,7 @@ namespace BookingRoomHotel.Controllers
             }
             catch (Exception ex)
             {
-                return Json(new {success = false, error = "Login Failed! Error: " + ex.Message});
+                return Json(new { success = false, error = "Login Failed! Error: " + ex.Message });
             }
         }
         public IActionResult Logout()
@@ -239,7 +246,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         [HttpPost]
-        public IActionResult ChangePassword([FromForm] CusChangePwViewModel model)
+        public async Task<IActionResult> ChangePassword([FromForm] CusChangePwViewModel model)
         {
             try
             {
@@ -250,7 +257,7 @@ namespace BookingRoomHotel.Controllers
                     {
 
                         cus.Pw = model.NewPw;
-                        _context.SaveChanges();
+                        await _context.SaveChangesAsync();
                         _emailService.SendChangePasswordMail(cus.Email, cus.Name, cus.Pw);
                         TempData["Success"] = "Change Password successful! Please check your email!";
                         return Json(new { success = true });
@@ -282,11 +289,13 @@ namespace BookingRoomHotel.Controllers
                     _emailService.SendForgotPasswordMail(cus.Email, cus.Name, cus.Pw);
                     TempData["Success"] = "Your password has been sent via email. Please check your email!";
                     return Json(new { success = true });
-                }else 
-                { 
-                    throw new Exception("Your ID or Email not correct!"); 
                 }
-            }catch (Exception ex)
+                else
+                {
+                    throw new Exception("Your ID or Email not correct!");
+                }
+            }
+            catch (Exception ex)
             {
                 return Json(new { success = false, error = "Get password Failed! Error: " + ex.Message });
             }

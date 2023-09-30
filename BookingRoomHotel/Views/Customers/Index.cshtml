@@ -6,10 +6,10 @@
 
 <h1>Customer Management</h1>
 <div>
-    <a asp-controller="Admin" asp-action="Dashboard">Back to DashBoard</a>
+    <a onclick="sendJwt('/Customers/Index','')">Back to DashBoard</a>
 </div>
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-outline-dark shadow-none" onclick="sendJwt('/Customers/Create', '')">Create New</a>
 </p>
 <table class="table">
     <thead>
@@ -33,29 +33,30 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Phone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateOfBirth)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Address)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOfBirth)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    <a class="btn btn-outline-dark shadow-none" onclick="sendJwt('/Customers/Edit/', '@item.Id')">Edit</a> |
+                    <a class="btn btn-outline-dark shadow-none" onclick="sendJwt('/Customers/Details/', '@item.Id')">Details</a> |
+                    <a class="btn btn-outline-dark shadow-none" onclick="sendJwt('/Customers/Delete/', '@item.Id')">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

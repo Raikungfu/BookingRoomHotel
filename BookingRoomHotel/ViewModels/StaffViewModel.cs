@@ -1,8 +1,16 @@
-﻿namespace BookingRoomHotel.ViewModels
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace BookingRoomHotel.ViewModels
 {
     public class StaffLoginViewModel
     {
-        public string Username { get; set; }
+
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter your username")]
+        [StringLength(maximumLength: 20, MinimumLength = 5, ErrorMessage = "Length between 5 - 20")]
+        public string UserName { get; set; }
+
+        [DataType(DataType.Password)]
+        [StringLength(maximumLength: 30, MinimumLength = 6, ErrorMessage = "Length between 6 - 30")]
         public string Password { get; set; }
     }
 }

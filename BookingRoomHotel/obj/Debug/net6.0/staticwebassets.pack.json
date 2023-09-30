@@ -193,12 +193,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\AdminCode.js",
+      "PackagePath": "staticwebassets\\js\\AdminCode.js"
+    },
+    {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\HomeCode.js",
       "PackagePath": "staticwebassets\\js\\HomeCode.js"
     },
     {
-      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\JavaScript.js",
-      "PackagePath": "staticwebassets\\js\\JavaScript.js"
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\StateCode.js",
+      "PackagePath": "staticwebassets\\js\\StateCode.js"
     },
     {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\LICENSE",

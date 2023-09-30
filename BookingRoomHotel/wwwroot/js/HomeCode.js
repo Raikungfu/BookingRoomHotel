@@ -36,8 +36,12 @@ function sendToCustomerController(endPoint, form) {
         else throw new Error('Network was not ok! Status: ' + response.status);
     }).then(data => {
         if (data.success === true) {
+            if (data.accessToken !== null) localStorage.setItem("accessToken", data.accessToken);
+            if (data.role !== null) localStorage.setItem("Role", data.role);
+            if (data.name !== null) localStorage.setItem("Name", data.name);
             window.location.href = '/Home/Index';
-        } else {
+        }
+        else {
             throw new Error(data.error);
         }
     }).catch(error => {

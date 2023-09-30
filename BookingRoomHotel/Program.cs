@@ -1,6 +1,10 @@
 using BookingRoomHotel.Models;
 using BookingRoomHotel.Models.ModelsInterface;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +29,29 @@ builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 
 builder.Services.AddSingleton<IEmailService, EmailService>();
 
+builder.Services.AddSingleton<ITokenService, TokenService>();
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Admin"));
+    options.AddPolicy("ReceptPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Recept"));
+    options.AddPolicy("StaffPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Staff"));
+    options.AddPolicy("CustomerPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "customer"));
+});
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:SecurityKey"]))
+        };
+    });
+
 
 var app = builder.Build();
 
@@ -41,6 +68,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseSession();

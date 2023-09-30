@@ -1,5 +1,8 @@
 ﻿using BookingRoomHotel.Models;
+using BookingRoomHotel.Models.ModelsInterface;
 using BookingRoomHotel.ViewModels;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookingRoomHotel.Controllers
@@ -7,9 +10,12 @@ namespace BookingRoomHotel.Controllers
     public class AdminController : Controller
     {
         private readonly ApplicationDbContext _context;
-        public AdminController(ApplicationDbContext context){ 
+        private readonly ITokenService _tokenService;
+        public AdminController(ApplicationDbContext context, ITokenService tokenService){ 
             _context = context;
+            _tokenService = tokenService;
         }
+
         public IActionResult Index()
         {
             string message = TempData["Message"] as string;
@@ -20,22 +26,23 @@ namespace BookingRoomHotel.Controllers
             return View();
         }
 
-        public IActionResult Login(StaffLoginViewModel model)
+        [HttpPost]
+        public IActionResult Login([FromForm] StaffLoginViewModel model)
         {
-            var staff = _context.Staffs.Find(model.Username);
+            var staff = _context.Staffs.Find(model.UserName);
             if (ModelState.IsValid && staff != null)
             {
                 if (staff.Pw.Equals(model.Password))
                 {
                     TempData["Message"] = "Login Successful!";
-                    return RedirectToAction("Dashboard");
+                    return Json(new { success = true, accessToken = _tokenService.GenerateAccessToken(staff.Id, staff.Name, staff.Role), role = staff.Role, name = staff.Name}); ;
                 }
             }
             TempData["Message"] = "Login Failed!";
-            return RedirectToAction("Index","Admin");
+            return Json(new { success = false });
         }
 
-        public IActionResult Dashboard()
+        public ViewResult Dashboard()
         {
             return View();
         }

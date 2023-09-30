@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BookingRoomHotel.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookingRoomHotel.Controllers
 {
@@ -18,10 +19,11 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Staffs
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Index()
         {
-              return _context.Staffs != null ? 
-                          View(await _context.Staffs.ToListAsync()) :
+              return _context.Staffs != null ?
+                          PartialView(await _context.Staffs.ToListAsync()) :
                           Problem("Entity set 'ApplicationDbContext.Staffs'  is null.");
         }
 
@@ -40,21 +42,20 @@ namespace BookingRoomHotel.Controllers
                 return NotFound();
             }
 
-            return View(staff);
+            return PartialView(staff);
         }
 
         // GET: Staffs/Create
         public IActionResult Create()
         {
-            return View();
+            return PartialView();
         }
 
         // POST: Staffs/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw,Role")] Staff staff)
+        public async Task<IActionResult> Create([FromForm] [Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw,Role")] Staff staff)
         {
             if (ModelState.IsValid)
             {
@@ -62,7 +63,7 @@ namespace BookingRoomHotel.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(staff);
+            return PartialView(staff);
         }
 
         // GET: Staffs/Edit/5
@@ -78,15 +79,14 @@ namespace BookingRoomHotel.Controllers
             {
                 return NotFound();
             }
-            return View(staff);
+            return PartialView(staff);
         }
 
         // POST: Staffs/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw,Role")] Staff staff)
+        public async Task<IActionResult> Edit(string id, [FromForm] [Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw,Role")] Staff staff)
         {
             if (id != staff.Id)
             {
@@ -113,7 +113,7 @@ namespace BookingRoomHotel.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(staff);
+            return PartialView(staff);
         }
 
         // GET: Staffs/Delete/5
@@ -131,13 +131,12 @@ namespace BookingRoomHotel.Controllers
                 return NotFound();
             }
 
-            return View(staff);
+            return PartialView(staff);
         }
 
         // POST: Staffs/Delete/5
         [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
+        public async Task<IActionResult> DeleteConfirmed([FromForm] string id)
         {
             if (_context.Staffs == null)
             {
