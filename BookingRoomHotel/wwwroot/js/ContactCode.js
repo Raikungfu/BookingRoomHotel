@@ -15,6 +15,6 @@
     }).then(error => {
         document.getElementById('errorMessage').innerHTML = error;
         $('#errorModal').modal('show');
-    })
+    });
     return false;
 }

@@ -5,25 +5,16 @@
 document.addEventListener("DOMContentLoaded", () => {
     if (checkRole()) {
         document.getElementById("showName").innerText = "Welcome, " + localStorage.getItem("Name");
-    }
-    if (checkRole()) {
         document.getElementById("showLogout").classList.remove("d-none");
-        if (roleCus()) {
-            document.getElementById("showLoginStaff").classList.remove("d-none");
-        } else {
-            document.getElementById("showLogResCus").classList.remove("d-none");
-        }
-    } else {
+    }else {
         document.getElementById("showLoginStaff").classList.remove("d-none");
         document.getElementById("showLogResCus").classList.remove("d-none");
     }
+    
 });
 
 function checkRole() {
     return localStorage.getItem("Role") !== null;
-}
-function roleCus() {
-    return localStorage.getItem("Role") === "customer";
 }
 
 function loginCustomer() {
