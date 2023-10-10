@@ -11,9 +11,11 @@ namespace BookingRoomHotel.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly ITokenService _tokenService;
-        public AdminController(ApplicationDbContext context, ITokenService tokenService){ 
+        private readonly IConfiguration _configuration;
+        public AdminController(ApplicationDbContext context, ITokenService tokenService, IConfiguration configuration){ 
             _context = context;
             _tokenService = tokenService;
+            _configuration = configuration;
         }
 
         public IActionResult Index()

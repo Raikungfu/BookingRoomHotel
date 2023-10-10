@@ -15,6 +15,8 @@ namespace BookingRoomHotel.Models
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Staff> Staffs {  get; set; }
 
+        public DbSet<Question> Question { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             /*if (!optionsBuilder.IsConfigured)

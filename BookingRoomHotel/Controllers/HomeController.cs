@@ -8,17 +8,11 @@ namespace BookingRoomHotel.Controllers
         // GET: HomeController
         public ActionResult Index()
         {
-            string messageSuccess = TempData["Success"] as string;
-            string messageError = TempData["Error"] as string;
+            return View();
+        }
 
-            if (!string.IsNullOrEmpty(messageSuccess))
-            {
-                ViewBag.MessageSuccess = messageSuccess;
-            }
-            if (!string.IsNullOrEmpty(messageError))
-            {
-                ViewBag.MessageError = messageError;
-            }
+        public ActionResult Contact()
+        {
             return View();
         }
 

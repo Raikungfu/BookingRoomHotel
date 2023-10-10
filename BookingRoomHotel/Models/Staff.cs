@@ -26,9 +26,11 @@ namespace BookingRoomHotel.Models
         public string Address { get; set; }
         [DataType(DataType.Password)]
         [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter your password")]
-        [StringLength(maximumLength: 30, MinimumLength = 6, ErrorMessage = "Length between 6 - 30")]
         public string Pw { get; set; }
         [StringLength(maximumLength: 20, ErrorMessage = "Max Length 20")]
         public string Role { get; set; }
+        [DataType(DataType.Text)]
+        [StringLength(10, ErrorMessage = "Error Status")]
+        public string Status { get; set; }
     }
 }

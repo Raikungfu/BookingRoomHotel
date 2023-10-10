@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BookingRoomHotel.Models;
 using BookingRoomHotel.ViewModels;
-using System.Net.Mail;
 using BookingRoomHotel.Models.ModelsInterface;
-using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 
 namespace BookingRoomHotel.Controllers
@@ -19,15 +12,17 @@ namespace BookingRoomHotel.Controllers
         private readonly ApplicationDbContext _context;
         private readonly IEmailService _emailService;
         private readonly ITokenService _tokenService;
-        public CustomersController(ApplicationDbContext context, IEmailService emailService, ITokenService tokenService)
+        private readonly IConfiguration _configuration;
+        public CustomersController(ApplicationDbContext context, IEmailService emailService, ITokenService tokenService, IConfiguration configuration)
         {
             _context = context;
             _emailService = emailService;
             _tokenService = tokenService;
+            _configuration = configuration;
         }
 
         // GET: Customers
-        [Authorize(Policy = "AdminPolicy")]
+        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
         public async Task<IActionResult> Index()
         {
             return _context.Customers != null ?
@@ -36,7 +31,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Customers/Details/5
-        [Authorize(Policy = "AdminPolicy")]
+        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.Customers == null)
@@ -56,7 +51,7 @@ namespace BookingRoomHotel.Controllers
 
         // GET: Customers/Create
         [HttpGet]
-        [Authorize(Policy = "AdminPolicy")]
+        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
         public IActionResult Create()
         {
             return PartialView();
@@ -66,7 +61,7 @@ namespace BookingRoomHotel.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [Authorize(Policy = "AdminPolicy")]
+        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
         public async Task<IActionResult> Create([FromForm] [Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw")] Customer customer)
         {
             if (ModelState.IsValid)
@@ -221,8 +216,7 @@ namespace BookingRoomHotel.Controllers
                     var cus = await _context.Customers.FindAsync(model.UserName);
                     if (cus != null && cus.Pw.Equals(model.Password))
                     {
-                        TempData["Success"] = "Login Successful!";
-                        return Json(new { success = true, accessToken = _tokenService.GenerateAccessToken(cus.Id, cus.Name, "customer"), role = "customer", name = cus.Name });
+                        return Json(new { success = true, message = "Login Successful!", accessToken = _tokenService.GenerateAccessToken(cus.Id, cus.Name, "customer"), role = "customer", name = cus.Name });
                     }
                     else
                     {
@@ -238,11 +232,6 @@ namespace BookingRoomHotel.Controllers
             {
                 return Json(new { success = false, error = "Login Failed! Error: " + ex.Message });
             }
-        }
-        public IActionResult Logout()
-        {
-            HttpContext.Session.Clear();
-            return RedirectToAction("Index", "Home");
         }
 
         [HttpPost]
@@ -279,11 +268,11 @@ namespace BookingRoomHotel.Controllers
         }
 
         [HttpPost]
-        public IActionResult ForgotPassword([FromForm] CusForgotPasswordViewModel model)
+        public async Task<IActionResult> ForgotPassword([FromForm] CusForgotPasswordViewModel model)
         {
             try
             {
-                var cus = _context.Customers.Find(model.Id);
+                var cus = await _context.Customers.FindAsync(model.Id);
                 if (cus != null && cus.Email.Equals(model.Email))
                 {
                     _emailService.SendForgotPasswordMail(cus.Email, cus.Name, cus.Pw);

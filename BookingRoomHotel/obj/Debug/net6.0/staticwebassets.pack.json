@@ -193,8 +193,216 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_15372.png",
+      "PackagePath": "staticwebassets\\images\\IMG_15372.png"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_40905.png",
+      "PackagePath": "staticwebassets\\images\\IMG_40905.png"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_55677.png",
+      "PackagePath": "staticwebassets\\images\\IMG_55677.png"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_62045.png",
+      "PackagePath": "staticwebassets\\images\\IMG_62045.png"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_93127.png",
+      "PackagePath": "staticwebassets\\images\\IMG_93127.png"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_99736.png",
+      "PackagePath": "staticwebassets\\images\\IMG_99736.png"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\images\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\bg_1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\bg_2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\IMG_16569.jpeg",
+      "PackagePath": "staticwebassets\\images\\features\\IMG_16569.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\IMG_17352.jpg",
+      "PackagePath": "staticwebassets\\images\\features\\IMG_17352.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\about.jpg",
+      "PackagePath": "staticwebassets\\images\\features\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\customers.svg",
+      "PackagePath": "staticwebassets\\images\\features\\customers.svg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\hotel.svg",
+      "PackagePath": "staticwebassets\\images\\features\\hotel.svg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\rating.svg",
+      "PackagePath": "staticwebassets\\images\\features\\rating.svg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\staff.svg",
+      "PackagePath": "staticwebassets\\images\\features\\staff.svg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_1.jpg",
+      "PackagePath": "staticwebassets\\images\\image_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_2.jpg",
+      "PackagePath": "staticwebassets\\images\\image_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_3.jpg",
+      "PackagePath": "staticwebassets\\images\\image_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_4.jpg",
+      "PackagePath": "staticwebassets\\images\\image_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_5.jpg",
+      "PackagePath": "staticwebassets\\images\\image_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_6.jpg",
+      "PackagePath": "staticwebassets\\images\\image_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_7.jpg",
+      "PackagePath": "staticwebassets\\images\\image_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_8.jpg",
+      "PackagePath": "staticwebassets\\images\\image_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-1.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-2.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-3.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-4.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-5.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-1.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-2.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-3.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-4.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-5.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-6.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-7.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-8.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\images\\person_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\images\\person_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\images\\person_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\images\\person_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-1.jpg",
+      "PackagePath": "staticwebassets\\images\\room-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-2.jpg",
+      "PackagePath": "staticwebassets\\images\\room-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-3.jpg",
+      "PackagePath": "staticwebassets\\images\\room-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-4.jpg",
+      "PackagePath": "staticwebassets\\images\\room-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-5.jpg",
+      "PackagePath": "staticwebassets\\images\\room-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-6.jpg",
+      "PackagePath": "staticwebassets\\images\\room-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-1.jpg",
+      "PackagePath": "staticwebassets\\images\\staff-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-2.jpg",
+      "PackagePath": "staticwebassets\\images\\staff-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-3.jpg",
+      "PackagePath": "staticwebassets\\images\\staff-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-4.jpg",
+      "PackagePath": "staticwebassets\\images\\staff-4.jpg"
+    },
+    {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\AdminCode.js",
       "PackagePath": "staticwebassets\\js\\AdminCode.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\ContactCode.js",
+      "PackagePath": "staticwebassets\\js\\ContactCode.js"
     },
     {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\HomeCode.js",
