@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\BookingRoomHotel.csproj": {}
+    "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoom\\BookingRoomHotel\\BookingRoomHotel.csproj": {}
   },
   "projects": {
-    "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\BookingRoomHotel.csproj": {
+    "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoom\\BookingRoomHotel\\BookingRoomHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\BookingRoomHotel.csproj",
+        "projectUniqueName": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoom\\BookingRoomHotel\\BookingRoomHotel.csproj",
         "projectName": "BookingRoomHotel",
-        "projectPath": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\BookingRoomHotel.csproj",
+        "projectPath": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoom\\BookingRoomHotel\\BookingRoomHotel.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\obj\\",
+        "outputPath": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoom\\BookingRoomHotel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
