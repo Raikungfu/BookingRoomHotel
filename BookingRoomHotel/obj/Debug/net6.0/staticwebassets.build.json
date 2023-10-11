@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SHs8FoGzmzhAJDR1QnSC6wWfHM2TT6hUc7WvR+l3ImA=",
+  "Hash": "18Fa6z9Tx2jzRCyeQ7vtOhIqORTslXwG5dIVKpVcWZE=",
   "Source": "BookingRoomHotel",
   "BasePath": "_content/BookingRoomHotel",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BookingRoomHotel\\wwwroot",
       "Source": "BookingRoomHotel",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap.css.map",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/bootstrap.js.map",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BookingRoomHotel.styles.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BookingRoomHotel.styles.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "BookingRoomHotel.styles.css",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BookingRoomHotel.styles.css"
+      "OriginalItemSpec": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BookingRoomHotel.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookingRoomHotel.bundle.scp.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookingRoomHotel.bundle.scp.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "BookingRoomHotel.bundle.scp.css",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookingRoomHotel.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookingRoomHotel.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\site.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\StyleSheet.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\StyleSheet.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "css/StyleSheet.css",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\favicon.ico",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\about.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\about.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/about.jpg",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\images\\about.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\bg_1.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\bg_1.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/bg_1.jpg",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bg_1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\bg_2.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\bg_2.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/bg_2.jpg",
       "AssetKind": "All",
@@ -901,10 +901,78 @@
       "OriginalItemSpec": "wwwroot\\images\\bg_2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\about.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\customer\\imgIdentify1\\1_image_1.png",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "BasePath": "_content/BookingRoomHotel",
+      "RelativePath": "images/customer/imgIdentify1/1_image_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\customer\\imgIdentify1\\1_image_1.png"
+    },
+    {
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\customer\\imgIdentify2\\1_image_1.png",
+      "SourceId": "BookingRoomHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "BasePath": "_content/BookingRoomHotel",
+      "RelativePath": "images/customer/imgIdentify2/1_image_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\customer\\imgIdentify2\\1_image_1.png"
+    },
+    {
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\customer\\profile\\1_image_1.png",
+      "SourceId": "BookingRoomHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "BasePath": "_content/BookingRoomHotel",
+      "RelativePath": "images/customer/profile/1_image_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\customer\\profile\\1_image_1.png"
+    },
+    {
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\customer\\profile\\d8c84cc0-c5bf-4c58-861e-249b3f3144f3_brother_and_sister_logo.png",
+      "SourceId": "BookingRoomHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "BasePath": "_content/BookingRoomHotel",
+      "RelativePath": "images/customer/profile/d8c84cc0-c5bf-4c58-861e-249b3f3144f3_brother_and_sister_logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\customer\\profile\\d8c84cc0-c5bf-4c58-861e-249b3f3144f3_brother_and_sister_logo.png"
+    },
+    {
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\about.jpg",
+      "SourceId": "BookingRoomHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/features/about.jpg",
       "AssetKind": "All",
@@ -918,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\features\\about.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\customers.svg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\customers.svg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/features/customers.svg",
       "AssetKind": "All",
@@ -935,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\images\\features\\customers.svg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\hotel.svg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\hotel.svg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/features/hotel.svg",
       "AssetKind": "All",
@@ -952,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\images\\features\\hotel.svg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\IMG_16569.jpeg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\IMG_16569.jpeg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/features/IMG_16569.jpeg",
       "AssetKind": "All",
@@ -969,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\images\\features\\IMG_16569.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\IMG_17352.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\IMG_17352.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/features/IMG_17352.jpg",
       "AssetKind": "All",
@@ -986,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\images\\features\\IMG_17352.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\rating.svg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\rating.svg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/features/rating.svg",
       "AssetKind": "All",
@@ -1003,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\images\\features\\rating.svg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\staff.svg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\staff.svg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/features/staff.svg",
       "AssetKind": "All",
@@ -1020,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\images\\features\\staff.svg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_1.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_1.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/image_1.jpg",
       "AssetKind": "All",
@@ -1037,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\images\\image_1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_2.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_2.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/image_2.jpg",
       "AssetKind": "All",
@@ -1054,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\images\\image_2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_3.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_3.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/image_3.jpg",
       "AssetKind": "All",
@@ -1071,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\images\\image_3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_4.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_4.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/image_4.jpg",
       "AssetKind": "All",
@@ -1088,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\images\\image_4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_5.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_5.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/image_5.jpg",
       "AssetKind": "All",
@@ -1105,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\images\\image_5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_6.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_6.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/image_6.jpg",
       "AssetKind": "All",
@@ -1122,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\images\\image_6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_7.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_7.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/image_7.jpg",
       "AssetKind": "All",
@@ -1139,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\image_7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_8.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_8.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/image_8.jpg",
       "AssetKind": "All",
@@ -1156,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\images\\image_8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_15372.png",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_15372.png",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/IMG_15372.png",
       "AssetKind": "All",
@@ -1173,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\images\\IMG_15372.png"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_40905.png",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_40905.png",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/IMG_40905.png",
       "AssetKind": "All",
@@ -1190,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\images\\IMG_40905.png"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_55677.png",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_55677.png",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/IMG_55677.png",
       "AssetKind": "All",
@@ -1207,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\images\\IMG_55677.png"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_62045.png",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_62045.png",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/IMG_62045.png",
       "AssetKind": "All",
@@ -1224,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\images\\IMG_62045.png"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_93127.png",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_93127.png",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/IMG_93127.png",
       "AssetKind": "All",
@@ -1241,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\IMG_93127.png"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_99736.png",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\IMG_99736.png",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/IMG_99736.png",
       "AssetKind": "All",
@@ -1258,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\images\\IMG_99736.png"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-1.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-1.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/insta-1.jpg",
       "AssetKind": "All",
@@ -1275,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\images\\insta-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-2.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-2.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/insta-2.jpg",
       "AssetKind": "All",
@@ -1292,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\images\\insta-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-3.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-3.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/insta-3.jpg",
       "AssetKind": "All",
@@ -1309,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\images\\insta-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-4.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-4.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/insta-4.jpg",
       "AssetKind": "All",
@@ -1326,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\images\\insta-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-5.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\insta-5.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/insta-5.jpg",
       "AssetKind": "All",
@@ -1343,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\images\\insta-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-1.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-1.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/menu-1.jpg",
       "AssetKind": "All",
@@ -1360,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\images\\menu-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-2.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-2.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/menu-2.jpg",
       "AssetKind": "All",
@@ -1377,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\images\\menu-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-3.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-3.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/menu-3.jpg",
       "AssetKind": "All",
@@ -1394,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\images\\menu-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-4.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-4.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/menu-4.jpg",
       "AssetKind": "All",
@@ -1411,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\images\\menu-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-5.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-5.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/menu-5.jpg",
       "AssetKind": "All",
@@ -1428,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\images\\menu-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-6.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-6.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/menu-6.jpg",
       "AssetKind": "All",
@@ -1445,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\images\\menu-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-7.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-7.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/menu-7.jpg",
       "AssetKind": "All",
@@ -1462,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\menu-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-8.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-8.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/menu-8.jpg",
       "AssetKind": "All",
@@ -1479,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\images\\menu-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\person_1.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\person_1.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/person_1.jpg",
       "AssetKind": "All",
@@ -1496,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\images\\person_1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\person_2.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\person_2.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/person_2.jpg",
       "AssetKind": "All",
@@ -1513,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\images\\person_2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\person_3.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\person_3.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/person_3.jpg",
       "AssetKind": "All",
@@ -1530,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\images\\person_3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\person_4.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\person_4.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/person_4.jpg",
       "AssetKind": "All",
@@ -1547,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\images\\person_4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-1.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-1.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/room-1.jpg",
       "AssetKind": "All",
@@ -1564,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\room-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-2.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-2.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/room-2.jpg",
       "AssetKind": "All",
@@ -1581,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\images\\room-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-3.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-3.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/room-3.jpg",
       "AssetKind": "All",
@@ -1598,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\images\\room-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-4.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-4.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/room-4.jpg",
       "AssetKind": "All",
@@ -1615,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\images\\room-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-5.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-5.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/room-5.jpg",
       "AssetKind": "All",
@@ -1632,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\images\\room-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-6.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-6.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/room-6.jpg",
       "AssetKind": "All",
@@ -1649,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\images\\room-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-1.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-1.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/staff-1.jpg",
       "AssetKind": "All",
@@ -1666,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\images\\staff-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-2.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-2.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/staff-2.jpg",
       "AssetKind": "All",
@@ -1683,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\images\\staff-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-3.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-3.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/staff-3.jpg",
       "AssetKind": "All",
@@ -1700,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\images\\staff-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-4.jpg",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-4.jpg",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "images/staff-4.jpg",
       "AssetKind": "All",
@@ -1717,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\images\\staff-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\AdminCode.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\AdminCode.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/AdminCode.js",
       "AssetKind": "All",
@@ -1734,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\js\\AdminCode.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\ContactCode.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\ContactCode.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/ContactCode.js",
       "AssetKind": "All",
@@ -1751,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\js\\ContactCode.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\HomeCode.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\HomeCode.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/HomeCode.js",
       "AssetKind": "All",
@@ -1768,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\js\\HomeCode.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\StateCode.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\StateCode.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "js/StateCode.js",
       "AssetKind": "All",
@@ -1785,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\js\\StateCode.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1802,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1819,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1836,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1853,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1870,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1887,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1904,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1921,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1938,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1955,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1972,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1989,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2006,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2023,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2040,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2057,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2074,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2091,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2108,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2125,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2142,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2159,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2176,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2193,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2210,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2227,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2244,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2261,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2278,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2295,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2312,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2329,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2346,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2363,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2380,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2397,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2414,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2431,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2448,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2465,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2482,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2499,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2516,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2533,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2550,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2567,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2584,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2601,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2618,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2635,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2652,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2669,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2686,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2703,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2720,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2737,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BookingRoomHotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
+      "ContentRoot": "D:\\Major\\Kì 5\\SWP391\\Code\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\",
       "BasePath": "_content/BookingRoomHotel",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

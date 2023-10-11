@@ -13,6 +13,7 @@ namespace BookingRoomHotel.Controllers
         private readonly IEmailService _emailService;
         private readonly ITokenService _tokenService;
         private readonly IConfiguration _configuration;
+
         public CustomersController(ApplicationDbContext context, IEmailService emailService, ITokenService tokenService, IConfiguration configuration)
         {
             _context = context;
@@ -62,7 +63,7 @@ namespace BookingRoomHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
-        public async Task<IActionResult> Create([FromForm] [Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw")] Customer customer)
+        public async Task<IActionResult> Create([FromForm][Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw")] Customer customer)
         {
             if (ModelState.IsValid)
             {
@@ -95,7 +96,7 @@ namespace BookingRoomHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [Authorize(Policy = "AdminPolicy")]
-        public async Task<IActionResult> Edit(string id, [FromForm] [Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw")] Customer customer)
+        public async Task<IActionResult> Edit(string id, [FromForm][Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw")] Customer customer)
         {
             if (id != customer.Id)
             {
@@ -216,6 +217,7 @@ namespace BookingRoomHotel.Controllers
                     var cus = await _context.Customers.FindAsync(model.UserName);
                     if (cus != null && cus.Pw.Equals(model.Password))
                     {
+                        HttpContext.Session.SetString("CustomerId", model.UserName);
                         return Json(new { success = true, message = "Login Successful!", accessToken = _tokenService.GenerateAccessToken(cus.Id, cus.Name, "customer"), role = "customer", name = cus.Name });
                     }
                     else
@@ -244,7 +246,6 @@ namespace BookingRoomHotel.Controllers
                     var cus = _context.Customers.Find(model.Id);
                     if (cus != null && cus.Pw.Equals(model.OldPw))
                     {
-
                         cus.Pw = model.NewPw;
                         await _context.SaveChangesAsync();
                         _emailService.SendChangePasswordMail(cus.Email, cus.Name, cus.Pw);
@@ -289,7 +290,5 @@ namespace BookingRoomHotel.Controllers
                 return Json(new { success = false, error = "Get password Failed! Error: " + ex.Message });
             }
         }
-
     }
-
 }
