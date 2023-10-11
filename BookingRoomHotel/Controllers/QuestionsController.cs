@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using BookingRoomHotel.Models;
 using Microsoft.AspNetCore.Authorization;
 using BookingRoomHotel.Models.ModelsInterface;
+using BookingRoomHotel.ViewModels;
+using System.Collections;
 
 namespace BookingRoomHotel.Controllers
 {
@@ -23,7 +25,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Questions
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Index()
         {
               return _context.Question != null ?
@@ -32,7 +34,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Questions/Details/5
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Question == null)
@@ -52,7 +54,7 @@ namespace BookingRoomHotel.Controllers
 
         // GET: Questions/Create
 
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public IActionResult Create()
         {
             return PartialView();
@@ -62,18 +64,25 @@ namespace BookingRoomHotel.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        public async Task<IActionResult> Create([FromForm][Bind("Name,Email,Subject,Message")] Question question)
+        public async Task<IActionResult> Create([FromForm][Bind("Name,Email,Subject,Message")] QuestionForm question)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    question.Status = "Pending";
-                    _context.Add(question);
+                    Question q = new Question();
+                    q.Name = question.Name;
+                    q.Email = question.Email;
+                    q.Subject = question.Subject;
+                    q.Message = question.Message;
+                    q.Status = "Pending";
+                    q.Response = "";
+                    _context.Add(q);
                     await _context.SaveChangesAsync();
                     _emailService.SendConfirmQ(question.Email, question.Name, question.Subject);
-                    return RedirectToAction(nameof(Index));
-                }else
+                    return Json(new { success = true, message = "Your request send successful. We will response in 24H!" }); ;
+                }
+                else
                 {
                     throw new Exception("Input not valid!");
                 }
@@ -81,11 +90,10 @@ namespace BookingRoomHotel.Controllers
             {
                 return Json(new { error = true, message = ex.Message});
             }
-
         }
 
         // GET: Questions/Edit/5
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Question == null)
@@ -106,7 +114,7 @@ namespace BookingRoomHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Edit(int id, [Bind("Response,Status")] Question question)
         {
             if (id != question.Id)
@@ -138,7 +146,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Questions/Delete/5
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Question == null)
@@ -159,7 +167,7 @@ namespace BookingRoomHotel.Controllers
         // POST: Questions/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Question == null)

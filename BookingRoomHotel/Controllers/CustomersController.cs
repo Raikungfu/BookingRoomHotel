@@ -22,7 +22,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Customers
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminAndReceptPolicy")]
         public async Task<IActionResult> Index()
         {
             return _context.Customers != null ?
@@ -31,7 +31,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Customers/Details/5
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminAndReceptPolicy")]
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.Customers == null)
@@ -51,7 +51,7 @@ namespace BookingRoomHotel.Controllers
 
         // GET: Customers/Create
         [HttpGet]
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminAndReceptPolicy")]
         public IActionResult Create()
         {
             return PartialView();
@@ -61,7 +61,7 @@ namespace BookingRoomHotel.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminAndReceptPolicy")]
         public async Task<IActionResult> Create([FromForm] [Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw")] Customer customer)
         {
             if (ModelState.IsValid)

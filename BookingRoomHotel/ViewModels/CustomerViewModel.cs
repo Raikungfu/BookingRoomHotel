@@ -57,4 +57,12 @@ namespace BookingRoomHotel.ViewModels
         public string Id { get; set; }
         public string Email { get; set; }
     }
+
+    public class QuestionForm
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Subject { get; set; }
+        public string Message { get; set; }
+    }
 }
