@@ -34,7 +34,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Questions/Details/5
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Question == null)
@@ -54,7 +54,7 @@ namespace BookingRoomHotel.Controllers
 
         // GET: Questions/Create
 
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public IActionResult Create()
         {
             return PartialView();
@@ -93,7 +93,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Questions/Edit/5
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Question == null)
@@ -114,7 +114,7 @@ namespace BookingRoomHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Edit(int id, [Bind("Response,Status")] Question question)
         {
             if (id != question.Id)
@@ -146,7 +146,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Questions/Delete/5
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Question == null)
@@ -167,7 +167,7 @@ namespace BookingRoomHotel.Controllers
         // POST: Questions/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Policy = "AdminPolicy, ReceptPolicy")]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Question == null)

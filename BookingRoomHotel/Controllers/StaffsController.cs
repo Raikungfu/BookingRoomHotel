@@ -28,6 +28,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Staffs/Details/5
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.Staffs == null)
@@ -46,6 +47,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Staffs/Create
+        [Authorize(Policy = "AdminPolicy")]
         public IActionResult Create()
         {
             return PartialView();
@@ -55,6 +57,7 @@ namespace BookingRoomHotel.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Create([FromForm] [Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw,Role")] Staff staff)
         {
             if (ModelState.IsValid)
@@ -67,6 +70,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Staffs/Edit/5
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null || _context.Staffs == null)
@@ -86,6 +90,7 @@ namespace BookingRoomHotel.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Edit(string id, [FromForm] [Bind("Id,Name,Email,Phone,DateOfBirth,Address,Pw,Role")] Staff staff)
         {
             if (id != staff.Id)
@@ -117,6 +122,7 @@ namespace BookingRoomHotel.Controllers
         }
 
         // GET: Staffs/Delete/5
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null || _context.Staffs == null)
@@ -136,6 +142,7 @@ namespace BookingRoomHotel.Controllers
 
         // POST: Staffs/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Authorize(Policy = "AdminPolicy")]
         public async Task<IActionResult> DeleteConfirmed([FromForm] string id)
         {
             if (_context.Staffs == null)

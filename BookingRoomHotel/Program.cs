@@ -37,6 +37,10 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("ReceptPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Recept"));
     options.AddPolicy("StaffPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Staff"));
     options.AddPolicy("CustomerPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "customer"));
+    options.AddPolicy("AdminAndReceptPolicy", policy =>
+        policy.RequireAssertion(context =>
+            context.User.HasClaim(ClaimTypes.Role, "Admin") ||
+            context.User.HasClaim(ClaimTypes.Role, "Recept")));
 });
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
