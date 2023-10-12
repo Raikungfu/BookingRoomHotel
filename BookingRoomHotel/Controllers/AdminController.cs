@@ -1,8 +1,6 @@
 ﻿using BookingRoomHotel.Models;
 using BookingRoomHotel.Models.ModelsInterface;
 using BookingRoomHotel.ViewModels;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookingRoomHotel.Controllers

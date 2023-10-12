@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "PzXcyoiNM06wdD4+1znkfJ6JRua5HBLOxFZ+xwas2MPxOVprcdkYDjFx7FdHmIMxG4AnOx9tDneGjrEI4/j5Tg==",
+  "dgSpecHash": "bXb0JFmbg130+W+ysOLjDuLoo0KecHejzf0YhPo2Wg+dvZgcokOsHgxz2lI/Sl76+/7WxkUCTvCdmfHTorgcng==",
   "success": true,
   "projectFilePath": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\BookingRoomHotel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
     "C:\\Users\\Raiku\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Raiku\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Raiku\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

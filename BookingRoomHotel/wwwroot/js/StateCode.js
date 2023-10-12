@@ -4,17 +4,24 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     if (checkRole()) {
-        document.getElementById("showName").innerText = "Welcome, " + localStorage.getItem("Name");
-        document.getElementById("showLogout").classList.remove("d-none");
-    }else {
+        document.getElementById("showUserAuth").classList.remove("d-none");
+        document.getElementById("userName").innerText = localStorage.getItem("Name");
+        document.getElementById("userRole").innerText = localStorage.getItem("Role");
+        if (roleCus()) {
+            document.getElementById("userAvt").src = "/images/customer/profile/" + localStorage.getItem("avt");
+        }
+    } else {
         document.getElementById("showLoginStaff").classList.remove("d-none");
-        document.getElementById("showLogResCus").classList.remove("d-none");
+        document.getElementById("showLogCus").classList.remove("d-none");
+        document.getElementById("showResCus").classList.remove("d-none");
     }
-    
 });
 
 function checkRole() {
     return localStorage.getItem("Role") !== null;
+}
+function roleCus() {
+    return localStorage.getItem("Role") === "customer";
 }
 
 function loginCustomer() {
@@ -55,6 +62,7 @@ function sendToCustomerController(endPoint, form) {
             if (data.accessToken !== null) localStorage.setItem("accessToken", data.accessToken);
             if (data.role !== null) localStorage.setItem("Role", data.role);
             if (data.name !== null) localStorage.setItem("Name", data.name);
+            if (data.avt !== null) localStorage.setItem("avt", data.avt);
             hideLogRegBtn();
             document.getElementById('successMessage').innerHTML = data.message;
             $('.modal').modal().hide();
@@ -74,9 +82,11 @@ function sendToCustomerController(endPoint, form) {
 
 function logout() {
     localStorage.clear();
+    document.getElementById("showName").classList.add("d-none");
     document.getElementById("showLogout").classList.add("d-none");
     document.getElementById("showLoginStaff").classList.remove("d-none");
-    document.getElementById("showLogResCus").classList.remove("d-none");
+    document.getElementById("showLogCus").classList.remove("d-none");
+    document.getElementById("showResCus").classList.remove("d-none");
 }
 
 var jwtToken = localStorage.getItem("accessToken");
@@ -127,8 +137,11 @@ function sendJwtAndData(endPoint, id) {
 }
 
 function hideLogRegBtn() {
+    document.getElementById("userAvt").src = "/images/customer/profile/" + localStorage.getItem("avt");
     document.getElementById("showName").innerText = "Welcome, " + localStorage.getItem("Name");
-    document.getElementById("showLogout").classList.remove("d-none");
+    document.getElementById("showName").classList.remove("d-none");
+    document.getElementById("showUserAuth").classList.remove("d-none");
     document.getElementById("showLoginStaff").classList.add("d-none");
-    document.getElementById("showLogResCus").classList.add("d-none");
+    document.getElementById("showLogCus").classList.add("d-none");
+    document.getElementById("showResCus").classList.add("d-none");
 }
