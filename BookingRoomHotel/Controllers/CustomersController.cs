@@ -216,7 +216,8 @@ namespace BookingRoomHotel.Controllers
                     var cus = await _context.Customers.FindAsync(model.UserName);
                     if (cus != null && cus.Pw.Equals(model.Password))
                     {
-                        return Json(new { success = true, message = "Login Successful!", accessToken = _tokenService.GenerateAccessToken(cus.Id, cus.Name, "customer"), role = "customer", name = cus.Name });
+                        HttpContext.Session.SetString("CustomerId", model.UserName);
+                        return Json(new { success = true, message = "Login Successful!", accessToken = _tokenService.GenerateAccessToken(cus.Id, cus.Name, "customer"), role = "customer", name = cus.Name, avt = cus.ImgAvt });
                     }
                     else
                     {

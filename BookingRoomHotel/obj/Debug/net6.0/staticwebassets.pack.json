@@ -1,188 +1,48 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.js"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Raiku\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
-    },
-    {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookingRoomHotel.bundle.scp.css",
       "PackagePath": "staticwebassets\\BookingRoomHotel.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\StyleSheet.css",
       "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\aos.css",
+      "PackagePath": "staticwebassets\\css\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\css\\icomoon.css"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
     },
     {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\css\\site.css",
@@ -217,6 +77,22 @@
       "PackagePath": "staticwebassets\\images\\IMG_99736.png"
     },
     {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\about-1.jpg",
+      "PackagePath": "staticwebassets\\images\\about-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\about-2.jpg",
+      "PackagePath": "staticwebassets\\images\\about-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\about-3.jpg",
+      "PackagePath": "staticwebassets\\images\\about-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\about-4.jpg",
+      "PackagePath": "staticwebassets\\images\\about-4.jpg"
+    },
+    {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\about.jpg",
       "PackagePath": "staticwebassets\\images\\about.jpg"
     },
@@ -227,6 +103,50 @@
     {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\bg_2.jpg",
       "PackagePath": "staticwebassets\\images\\bg_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\customer\\imgIdentify1\\cae0f879-ff92-4ddd-b791-5afc20a4a998_Screenshot 2023-08-13 233739.png",
+      "PackagePath": "staticwebassets\\images\\customer\\imgIdentify1\\cae0f879-ff92-4ddd-b791-5afc20a4a998_Screenshot 2023-08-13 233739.png"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\customer\\imgIdentify1\\e7d699c0-f61e-40e8-b6da-68b55a7bffd6_koenigsegg-gemera.jpg",
+      "PackagePath": "staticwebassets\\images\\customer\\imgIdentify1\\e7d699c0-f61e-40e8-b6da-68b55a7bffd6_koenigsegg-gemera.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\customer\\imgIdentify2\\c9325835-af3b-45b9-9e97-c809b4dc6540_koenigsegg-gemera.jpg",
+      "PackagePath": "staticwebassets\\images\\customer\\imgIdentify2\\c9325835-af3b-45b9-9e97-c809b4dc6540_koenigsegg-gemera.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\customer\\imgIdentify2\\d1abc761-9f5c-48be-b774-5beae4c0c205_Screenshot 2023-08-18 134229.png",
+      "PackagePath": "staticwebassets\\images\\customer\\imgIdentify2\\d1abc761-9f5c-48be-b774-5beae4c0c205_Screenshot 2023-08-18 134229.png"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\customer\\profile\\avtAdmin.jpeg",
+      "PackagePath": "staticwebassets\\images\\customer\\profile\\avtAdmin.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\customer\\profile\\d8c84cc0-c5bf-4c58-861e-249b3f3144f3_brother_and_sister_logo.png",
+      "PackagePath": "staticwebassets\\images\\customer\\profile\\d8c84cc0-c5bf-4c58-861e-249b3f3144f3_brother_and_sister_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\customer\\profile\\e176c838-dc41-4ff1-bc1d-dd0868904a82_koenigsegg-gemera.jpg",
+      "PackagePath": "staticwebassets\\images\\customer\\profile\\e176c838-dc41-4ff1-bc1d-dd0868904a82_koenigsegg-gemera.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\customer\\profile\\f483c253-2116-470b-b524-d5371aada192_brother_and_sister_logo.png",
+      "PackagePath": "staticwebassets\\images\\customer\\profile\\f483c253-2116-470b-b524-d5371aada192_brother_and_sister_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
     },
     {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\IMG_16569.jpeg",
@@ -255,6 +175,10 @@
     {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\features\\staff.svg",
       "PackagePath": "staticwebassets\\images\\features\\staff.svg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\hotel_logo.png",
+      "PackagePath": "staticwebassets\\images\\hotel_logo.png"
     },
     {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\image_1.jpg",
@@ -309,6 +233,10 @@
       "PackagePath": "staticwebassets\\images\\insta-5.jpg"
     },
     {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\menu-1.jpg",
       "PackagePath": "staticwebassets\\images\\menu-1.jpg"
     },
@@ -357,6 +285,106 @@
       "PackagePath": "staticwebassets\\images\\person_4.jpg"
     },
     {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\images\\placeholder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\product\\product-01.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\product\\product-02.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\product\\product-03.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\product\\product-04.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\product\\product-05.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\product\\product-06.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\product\\product-07.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\product\\product-08.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-01.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-02.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-03.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-04.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-05.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-06.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-07.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-08.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-09.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-10.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-11.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-12.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-13.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-15.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-16.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\profiles\\avatar-17.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\avatar-17.jpg"
+    },
+    {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\room-1.jpg",
       "PackagePath": "staticwebassets\\images\\room-1.jpg"
     },
@@ -381,6 +409,10 @@
       "PackagePath": "staticwebassets\\images\\room-6.jpg"
     },
     {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\sent.png",
+      "PackagePath": "staticwebassets\\images\\sent.png"
+    },
+    {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\staff-1.jpg",
       "PackagePath": "staticwebassets\\images\\staff-1.jpg"
     },
@@ -397,6 +429,50 @@
       "PackagePath": "staticwebassets\\images\\staff-4.jpg"
     },
     {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\team-1.jpg",
+      "PackagePath": "staticwebassets\\images\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\team-2.jpg",
+      "PackagePath": "staticwebassets\\images\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\team-3.jpg",
+      "PackagePath": "staticwebassets\\images\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\team-4.jpg",
+      "PackagePath": "staticwebassets\\images\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\video-call.jpg",
+      "PackagePath": "staticwebassets\\images\\video-call.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\images\\video.jpg",
+      "PackagePath": "staticwebassets\\images\\video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\js\\.DS_Store"
+    },
+    {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\AdminCode.js",
       "PackagePath": "staticwebassets\\js\\AdminCode.js"
     },
@@ -411,6 +487,74 @@
     {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\StateCode.js",
       "PackagePath": "staticwebassets\\js\\StateCode.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\google-map.js",
+      "PackagePath": "staticwebassets\\js\\google-map.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\jquery-migrate-3.0.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-migrate-3.0.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\jquery.animateNumber.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.animateNumber.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\jquery.easing.1.3.js",
+      "PackagePath": "staticwebassets\\js\\jquery.easing.1.3.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\jquery.stellar.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.stellar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\range.js",
+      "PackagePath": "staticwebassets\\js\\range.js"
+    },
+    {
+      "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\js\\scrollax.min.js",
+      "PackagePath": "staticwebassets\\js\\scrollax.min.js"
     },
     {
       "Id": "C:\\Users\\Raiku\\source\\repos\\BookingRoomHotel\\BookingRoomHotel\\wwwroot\\lib\\bootstrap\\LICENSE",
